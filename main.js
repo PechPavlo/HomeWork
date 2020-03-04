@@ -55,3 +55,20 @@ tenMinutesCost = oneMinuteCost * 10;
 
 alert (`Десять минут разговора с городом ${town} стоит ${tenMinutesCost} р.`);
 
+// task 2
+
+let $min = +prompt ('Tape minutes from 0 to 59',0)
+
+if ($min <= 15) {
+       alert ("It's a first quarter") 
+}
+if ($min <= 30 && $min > 15) {
+        alert ("It's a second quarter") 
+ }
+ if ($min <= 45 && $min > 30) {
+        alert ("It's a third quarter") 
+ }
+ if ($min <= 59 && $min > 45) {
+        alert ("It's a fourth quarter") 
+ }
+ 
