@@ -31,6 +31,27 @@ switch (weekDay) {
         break;
     }
 
+// task 1
 
+let townCode = +prompt ('Введите код города',0);
+let oneMinuteCost ;
+let tenMinutesCost ;
+let town;
 
-    
+if (townCode == 905) { town = "Москва" , oneMinuteCost = 4.15;
+        
+}
+
+if (townCode == 194) { town = "Ростов" , oneMinuteCost = 1.98;
+        
+}
+if (townCode == 491) { town = "Краснодар" , oneMinuteCost = 2.69;
+        
+}
+if (townCode == 800) { town = "Киров" , oneMinuteCost = 5;
+        
+}    
+tenMinutesCost = oneMinuteCost * 10;
+
+alert (`Десять минут разговора с городом ${town} стоит ${tenMinutesCost} р.`);
+
